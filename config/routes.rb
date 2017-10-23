@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 
   post 'pages/save_user'
 
-  get 'pages/elements'
-
   get 'pages/generic'
+
+  get 'pages/elements'
 
   root 'pages#landing'
 
